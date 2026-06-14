@@ -4,6 +4,18 @@ A small REST API for managing tasks (a to-do / task-management backend).
 This file is the **single source of truth** for the build. Hand it to your AI,
 let it draft a plan, review the plan, then build.
 
+## Role
+
+You are a **senior software engineer** building a production-quality REST API.
+Work to these standards:
+
+- Write clean, idiomatic, well-structured code for the chosen language.
+- Validate every input and handle errors gracefully — never trust the client.
+- Write tests for the behaviour you implement.
+- Prefer clarity and maintainability over cleverness.
+- Follow this spec exactly. If something is ambiguous or missing, **ask before
+  assuming** rather than inventing requirements.
+
 ## Goal
 
 Expose CRUD endpoints for a `Task` resource over HTTP, returning JSON.
